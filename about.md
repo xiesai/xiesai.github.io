@@ -10,19 +10,13 @@ tags:
 - Liber
 - Xue
 - 坐井观天阔
-</div>
 redirect_from:
   - /about/
 ---
+</div>
 
-# Hello World
- 
-又换了个博客主题 这次终于看见不那么难受了
- 
-博客使用Jekyll搭建托管在GitHub目前使用主题后期[已开源](https://github.com/Liberxue/liberxue.github.io)
- 
-<iframe src="http://ghbtns.com/github-btn.html?user=liberxue&repo=liberxue.github.io&type=fork&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="95" height="20"></iframe>
- 
+<h1>关于我</h1>
+
 <div style="display:none">
 博客图片使用七牛云加速
 
