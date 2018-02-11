@@ -1,15 +1,16 @@
 ---
 layout: blog
-title: 关于LiberXue
-description: "关于LiberXue博客角落自述"
-data: 2017-08-05 09:19:11
-tags: 
+title: 关于|About me
+data: 2018-02-12 00:00:00
+<div style="display:none">
+tags:
 - LiberXue
 - 简述
 - 关于
 - Liber
 - Xue
 - 坐井观天阔
+</div>
 redirect_from:
   - /about/
 ---
@@ -22,7 +23,7 @@ redirect_from:
  
 <iframe src="http://ghbtns.com/github-btn.html?user=liberxue&repo=liberxue.github.io&type=fork&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="95" height="20"></iframe>
  
-
+<div style="display:none">
 博客图片使用七牛云加速
 
 ##  LiberXue  曾用名013
@@ -178,7 +179,7 @@ ID|项 目 名 称| 开 发 语 言| 功 能 简 述| 框架| 是否上线|
 10|c#交互lua|c#&adb&lua|通达oa打卡支付ar自动抢五福|无|已开源
 11|freebsd路由器|vc perl PHP ruby|dns双向加速缓存 cc流量分析|freebsd|没有
 11|Jekyll themes|html5 css3 moonjs ruby json|Jekyll|无|已开源
-
+</div>
 
 
 
