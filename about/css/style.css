@@ -331,3 +331,6 @@ body.respond #contactform textarea {width: 90%;}
 body.respond #copyright {margin: 60px auto;}
 
 body.respond #messageSent {margin-top: 20px;}
+.contact_line{height: 26px;line-height: 26px;}
+.contact_label{font-family: 苹方中等;font-size: 14px;}
+.contact_value{margin-left: 10px;font-size: 14px;}
