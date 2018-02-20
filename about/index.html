@@ -232,26 +232,38 @@
 
 <div class="clear"></div>
 <div style="margin: 20px;">
-	<p class="contact_line">
+  <ul>
+	<li class="contact_line">
 		<span class="contact_label">email:</span>
-		<span class="contact_value">xiesai@huawei.com(公司),</span>
-		<span class="contact_value">neuxs666@163.com(个人)</span>
-	</p>
-	<p class="contact_line">
+		<span class="contact_value"><a href="mailto:xiesai@huawei.com">xiesai@huawei.com(公司)</a>,</span>
+		<span class="contact_value"><a href="mailto:neuxs666@163.com">neuxs666@163.com(个人)</a></span>
+	</li>
+	<li class="contact_line">
 		<span class="contact_label">电话：</span>
 		<span class="contact_value">15366158681(南京),</span>
 		<span class="contact_value">13322451855(沈阳)</span>
-	</p>
-	<p class="contact_line">
+	</li>
+	<li class="contact_line">
 		<span class="contact_label">微信：</span>
 		<span class="contact_value">XS6635999</span>
-	</p>
+	</li>
+	</ul>
 </div>
+!--PC和WAP自适应版-->
+ <div id="SOHUCS" ></div>
 </div><!--end wrapper-->
 <!--COPYRIGHT-->
 <div id="copyright">&copy; 2018 - Designed and developed by xiesai</div>
 
 <!--SCRIPTS-->
+<script type="text/javascript">
+    (function(){
+        var appid = 'cyttxpueP';
+        var conf = 'prod_a7b07a88cafda3d7de6a24d731e78944';
+        var width = window.innerWidth || document.documentElement.clientWidth;
+        if (width < 960) {
+            window.document.write('<script id="changyan_mobile_js" charset="utf-8" type="text/javascript" src="https://changyan.sohu.com/upload/mobile/wap-js/changyan_mobile.js?client_id=' + appid + '&conf=' + conf + '"><\/script>'); } else { var loadJs=function(d,a){var c=document.getElementsByTagName("head")[0]||document.head||document.documentElement;var b=document.createElement("script");b.setAttribute("type","text/javascript");b.setAttribute("charset","UTF-8");b.setAttribute("src",d);if(typeof a==="function"){if(window.attachEvent){b.onreadystatechange=function(){var e=b.readyState;if(e==="loaded"||e==="complete"){b.onreadystatechange=null;a()}}}else{b.onload=a}}c.appendChild(b)};loadJs("https://changyan.sohu.com/upload/changyan.js",function(){window.changyan.api.config({appid:appid,conf:conf})}); } })();
+</script>
 <script src="js/jquery.js"></script>
 <script src="js/prettyPhoto.js"></script>
 <script src="js/backPosition.js"></script>
