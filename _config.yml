@@ -20,8 +20,8 @@ links:
   - name:         旅游
     url:          /road
     external:     false
-  - name:         归档
-    url:          /archives
+  - name:         总结
+    url:          /program
     external:     false
   - name:         关于我
     url:          /about
