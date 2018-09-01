@@ -4,6 +4,7 @@ program: true
 background-image: http://www.gruntjs.net/img/grunt-logo.png
 title:  "深度解析浏览器加载页面全过程"
 date:   2018-09-01
+background-image: https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1535829401538&di=65655c4de3238bd244088e8405f5c060&imgtype=0&src=http%3A%2F%2Fa0.leadongcdn.cn%2Fcloud%2FkqBnqKSRiipokmi%2Fchrometubi.jpg
 category: 前端
 tags:
 - Brower
@@ -16,11 +17,11 @@ tags:
 ## 建立请求连接
 
 <p>用户在浏览器中输入网站url地址后，浏览器首先要做的是将该url转换成要请求网站服务端的IP地址。比如，你要访问华为云官网，在浏览器中输入www.huaweicloud.com，这时浏览器会请求域名服务器进行DNS域名解析，域名服务器返回华为云官网部署服务器的IP地址。域名解析的过程这里不详细赘述，概括的说就是浏览器会现在本地找有没有对应的缓存记录，如果没有再请求本地域名服务器，如果还没找到则请求根域名服务器。</p>
-<div><img src=“http://img2.ph.126.net/jg4zSbNtyyr6b9WsmV3pEA==/1879689894574266209.jpg”></div>
+<img src=“http://img2.ph.126.net/jg4zSbNtyyr6b9WsmV3pEA==/1879689894574266209.jpg”/>
 <p>
-  找到请求的服务器IP后，浏览器就会像服务器发出http请求。请求前要先与服务器建立连接，这里就是我们通常说的三次握手。通过三次握手完成浏览器和服务端之间的链接,服务器返回请求资源，接着就是浏览器对资源进行解析的古城
+  找到请求的服务器IP后，浏览器就会像服务器发出http请求。请求前要先与服务器建立连接，这里就是我们通常说的三次握手。通过三次握手完成浏览器和服务端之间的链接,服务器返回请求资源，接着就是浏览器对资源进行解析的过程。
 </p>
-<img src="http://img2.ph.126.net/crHIJ6xo_3DcghVF_DY7xg==/6597741568263534812.jpg">
+<img src="http://img2.ph.126.net/crHIJ6xo_3DcghVF_DY7xg==/6597741568263534812.jpg"/>
 
 ## 浏览器资源解析及工作原理
 <p>
