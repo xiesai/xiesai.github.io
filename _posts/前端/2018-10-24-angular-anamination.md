@@ -22,7 +22,7 @@ tags:
 <img src="http://img0.ph.126.net/NMzFC0I0UL3zDD5vZQKXfw==/6631461390866443161.jpeg"/>
 ## 来吧，直接上代码
 <p>比如下面有个Html代码片段，代码中使用了ng-repeat，并且将遍历对象中的service属性作为id赋给要渲染出的dom元素</p>
-```html
+```javascript
   我们定义Arr=[{service:'xs',id:'01'},{service:'xs1',id:'02'}];
   <div ng-repeat="obj in Arr">
     <div id="obj.service"></div>
@@ -59,7 +59,7 @@ function xsRepeatFinishWatch($,$animate){
 }
 ```
 <p>定义完指令，使用方法如下,其中自定义标签中init-dom-class为要添加的样式，actmethod为渲染完成后待执行的方法。</p>
-```html
+```javascript
   <div ng-repeat="obj in Arr">
     <div id="obj.service"></div>
     <xs-ng-repeat-finish-watch init-dom-class-"domfinish" actmethod="doPrinter()"></xs-ng-repeat-finish-watch>
