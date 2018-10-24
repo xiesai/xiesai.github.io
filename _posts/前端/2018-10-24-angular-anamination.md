@@ -2,7 +2,7 @@
 layout: blog
 program: true
 background-image: https://gss0.bdstatic.com/94o3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike80%2C5%2C5%2C80%2C26/sign=911e0d8af403738dca470470d272db34/5882b2b7d0a20cf419b28cf574094b36acaf99fd.jpg
-title:  "1024程序员节随笔之--angularjs中ng-repeat元素渲染监听"
+title:  "程序员节随笔之元素渲染监听"
 date:   2018-10-24
 background-image: https://gss0.bdstatic.com/94o3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike80%2C5%2C5%2C80%2C26/sign=911e0d8af403738dca470470d272db34/5882b2b7d0a20cf419b28cf574094b36acaf99fd.jpg
 category: 前端
