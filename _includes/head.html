@@ -51,21 +51,12 @@ LLLLLLLLLLLLLLLLLLLLLLLLiiiiiiiibbbbbbbbbbbbbbbb       eeeeeeeeeeeeee   rrrrrrr 
 var _hmt = _hmt || [];
 (function() {
   var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?10bf69f5590f10eb3c53c04372e486fd";
+  hm.src = "https://hm.baidu.com/hm.js?a1e1d802ab72a445d6ef7f0d7fe3c85a";
   var s = document.getElementsByTagName("script")[0]; 
   s.parentNode.insertBefore(hm, s);
 })();
 </script>
-{% if site.google_analytics %}
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-  ga('create', '{{ site.google_analytics }}', 'auto');
-  ga('send', 'pageview');
-</script>
-{% endif %}
+
 {% if site.facebook_appid %}
 <meta content="{{ site.facebook_appid }}" property="fb:app_id" />
 <script>(function(d, s, id) {
